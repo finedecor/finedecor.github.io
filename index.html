@@ -116,22 +116,13 @@
         </div>
         <!-- The Contact Section -->
     <div class="w3-container w3-content w3-padding-8" style="max-width:800px" id="contact">
-      <div class="w3-row w3-padding-32">
-        <div class="w3-col m6">
-          <form method="post" action="mailto:dylantinianov@gmail.com"target="_blank">
-            <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
-              <div class="w3-half">
-                <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
-              </div>
-              <div class="w3-half">
-                <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
-              </div>
-            </div>
-            <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
-            <button class="w3-button w3-black w3-section w3-right" type="submit" value="Send Email">SEND</button>
-          </form>
-        </div>
-      </div>
+        <form action="http://finedecor.ca/mail_handler.php" method="post">
+        First Name: <input type="text" name="first_name"><br>
+        Last Name: <input type="text" name="last_name"><br>
+        Email: <input type="text" name="email"><br>
+        Message:<br><textarea rows="5" name="message" cols="30"></textarea><br>
+        <input type="submit" name="submit" value="Submit">
+        </form>
     </div>
     </div>
 
