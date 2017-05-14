@@ -28,6 +28,13 @@ li+li { border-left: 1px solid rgb(230, 204, 158) }
     border-width: thin;
 }
 
+.border3 {
+    border-color: rgb(230, 204, 158);
+    border-right-style: solid;
+    border-width: thin;
+}
+
+
 .border-right {
     border-color: rgb(230, 204, 158);
     border-right-style: solid;
