@@ -61,7 +61,7 @@ img.center_logo {
 
 .separate {
     background-color: black;
-    background-image: url('./images/separate.png');
+    background-image: url('./pictures/separate.png');
     background-size: 200px;
     background-repeat: no-repeat;
     background-position: center;
@@ -76,7 +76,7 @@ img.center_logo {
 }
 
 .bgimg {
-    background-image: url('./images/new.png');
+    background-image: url('./pictures/new.png');
 }
 
 .light-grey {
@@ -159,21 +159,21 @@ img.center_logo {
 }
 
 .top-background {
-    background-image: url("./images/fine_decor_top.png");
+    background-image: url("./pictures/fine_decor_top.png");
     background-size: 1300px;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .manu-background {
-    background-image: url("./images/manufact-pic2.png");
+    background-image: url("./pictures/manufact-pic2.png");
     background-size: 1500px;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .more-manu-background {
-    background-image: url("./images/manu.png");
+    background-image: url("./pictures/manu.png");
     background-size: 800px;
     background-repeat: no-repeat;
     background-position: center;
@@ -182,7 +182,7 @@ img.center_logo {
 
 
 .contact-background {
-    background-image: url("./images/contact.png");
+    background-image: url("./pictures/contact.png");
     background-size: 1000px;
     background-repeat: no-repeat;
     background-position: top;
